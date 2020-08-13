@@ -1,0 +1,57 @@
+$bg_color : white;
+$btnHover : #7CBA01;
+.rowItem {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.item {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    
+    padding:10px;
+    width: 80%;
+    border-radius: 1em;
+    text-align:center;
+    transition: all 0.2s;
+    box-sizing: border-box;
+    margin:0 0.3em 0.3em 0;
+    cursor: pointer;
+    text-decoration:none;
+    border:none;
+    outline: none;
+    background-color: #C5E098;
+    &:hover {
+        background-color: $btnHover;
+    }
+}
+
+.underline {
+    width: 60%;
+    margin-top: 0px;
+    background-color: grey;
+}
+
+.itemTitle {
+    padding: 0px 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.title {
+    padding: 10px;
+    font-size: x-large;
+    font-weight: 600;
+    background-color: $bg_color;
+}
+
+.bgColor {
+    background-color: $bg_color;
+}
+
+.border{
+    border-radius: 0.4rem;
+}

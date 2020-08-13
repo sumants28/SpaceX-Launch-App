@@ -1,0 +1,52 @@
+$textColor:#565B9B;
+.bgColor {
+    background-color: white;
+    border-radius: 0.5rem;
+    @media (min-width:1025px) {
+        max-height: 500px;
+    }
+    @media (max-width: 700px) {
+        margin:20px 10px;
+    }
+}
+
+.imgAlign{
+    text-align: center;
+}
+
+.img {
+    background-color: #F2F2F2;
+    margin-top:20px;
+    @media (max-width:1024px) {
+        width: 85%;
+    }
+    @media (min-width:1025px) {
+        width:250px;
+    }
+}
+
+.launchDetails {
+    @media(max-width: 1024px) {
+        padding: 5px 7.5% 20px;
+    }
+    padding: 5px 25px 20px;
+}
+
+.missionName {
+    color:$textColor;
+    font-weight: 500;
+}
+
+.launchDetailsItems{
+    padding-top:10px;
+    color:$textColor;
+}
+
+.launchDetailsItemsKey{
+    color:black;
+    font-weight: 500;
+}
+
+.missionId{
+    margin: 0px;
+}
