@@ -24,10 +24,11 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 ## Technology Stack
 ### Major libraries user:
+```bash
 Reactjs
 Nextjs
 Sass
-
+```
 ## Approach
 While designing the application the idea was to make a component for anything that will be reused.
 Styling and alignment:
