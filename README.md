@@ -4,6 +4,11 @@ Few things to keep in mind:
 2. Due to time constraints I was unable to perform unit tests.I would like to let you know that I have some experience in using jest and enzyme as well.
 3. As there was no ask to have a clear filters button, there is no way to clear filters for the user other than changing it.
 
+## Link to the Deployed Application
+```bash
+https://space-x-launch-app.vercel.app/
+```
+
 ## Getting Started
 Download and extract the zip file of this repository.
 Open terminal and navigate to the folder where zip file is extracted and execute the following command(install nodejs if it isnt already installed):
